@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+env/
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Vector DB / runtime artifacts
+chroma_db/
+chroma_integration_store/
+
+# Large documents / client data
+data/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
